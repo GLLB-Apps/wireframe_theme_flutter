@@ -1,6 +1,8 @@
-name: wireframe_theme
-description: "A new Flutter package project."
-version: 0.0.1
+name: wireframe_theme_flutter
+description: FLUX_WIREFRAME – Wireframe theme package
+version: 1.0.1
+publish_to: none
+
 homepage:
 
 environment:
