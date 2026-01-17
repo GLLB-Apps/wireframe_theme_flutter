@@ -5,7 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.1] - 2025-01-17
+## [1.0.4] - 2025-01-17
+
+### Fixed
+- Renamed main library file from `wireframe_theme_flutter.dart` to `wireframe_theme.dart` to match package name convention
+- Ensures proper pub.dev package naming standards
+
 ## [1.0.3] - 2025-01-17
 
 ### Fixed
@@ -16,7 +21,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Minor documentation improvements in README
 - Updated package metadata for pub.dev publication
 
-[1.0.3]: https://github.com/yourusername/wireframe_theme/releases/tag/v1.0.3
+## [1.0.1] - 2025-01-17
+
+### Changed
+- Initial preparation for pub.dev publication
+
+## [1.0.0] - 2025-01-17
 
 ### Added
 - Initial release of wireframe_theme package
@@ -51,4 +61,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Example code for common use cases
 - Theme specifications and component styling details
 
+[1.0.4]: https://github.com/GLLB-Apps/wireframe_theme/releases/tag/v1.0.4
+[1.0.3]: https://github.com/GLLB-Apps/wireframe_theme/releases/tag/v1.0.3
+[1.0.1]: https://github.com/GLLB-Apps/wireframe_theme/releases/tag/v1.0.1
 [1.0.0]: https://github.com/GLLB-Apps/wireframe_theme/releases/tag/v1.0.0
