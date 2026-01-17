@@ -1,24 +1,22 @@
-name: wireframe_theme_flutter
-description: FLUX_WIREFRAME – A professional wireframe theme package for building structural UI prototypes in Flutter.
+name: wireframe_theme
+description: A minimalist Flutter theme package with wireframe aesthetic, IBM Plex Mono typography, and dark mode support.
 version: 1.0.3
-repository: https://github.com/GLLB-Apps/wireframe_theme_flutter
+homepage: https://github.com/GLLB-Apps/wireframe_theme
+repository: https://github.com/GLLB-Apps/wireframe_theme
+issue_tracker: https://github.com/GLLB-Apps/wireframe_theme/issues
 
 environment:
-  sdk: ^3.6.1
+  sdk: '>=3.0.0 <4.0.0'
   flutter: ">=3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  shared_preferences: ^2.2.2
-  provider: ^6.0.5
   google_fonts: ^6.1.0
+  provider: ^6.0.0
+  shared_preferences: ^2.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
-
-flutter:
-  # Om du har specifika typsnitt för wireframe-looken (t.ex. en "handwritten" font), 
-  # deklarerar du dem här.
+  flutter_lints: ^2.0.0
