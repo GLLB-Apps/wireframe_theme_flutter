@@ -1,6 +1,6 @@
 name: wireframe_theme
 description: A minimalist Flutter theme package with wireframe aesthetic, IBM Plex Mono typography, and dark mode support.
-version: 1.0.4
+version: 1.0.5
 homepage: https://github.com/GLLB-Apps/wireframe_theme_flutter
 repository: https://github.com/GLLB-Apps/wireframe_theme_flutter
 issue_tracker: https://github.com/GLLB-Apps/wireframe_theme_flutter/issues
