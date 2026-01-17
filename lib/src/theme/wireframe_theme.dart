@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class WireframeTheme {
   static const Color white = Color(0xFFFFFFFF);
@@ -31,27 +32,27 @@ class WireframeTheme {
         onSurface: foreground,
         error: errorRed,
       ),
-      fontFamily: 'monospace',
-      textTheme: TextTheme(
-        displayLarge: TextStyle(fontSize: 32, fontWeight: FontWeight.w700, color: foreground),
-        displayMedium: TextStyle(fontSize: 28, fontWeight: FontWeight.w600, color: foreground),
-        displaySmall: TextStyle(fontSize: 24, fontWeight: FontWeight.w600, color: foreground),
-        headlineMedium: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: foreground),
-        titleLarge: TextStyle(fontSize: 18, fontWeight: FontWeight.w500, color: foreground),
-        bodyLarge: TextStyle(fontSize: 16, fontWeight: FontWeight.w400, color: foreground),
-        bodyMedium: TextStyle(fontSize: 14, fontWeight: FontWeight.w400, color: foreground),
-        bodySmall: TextStyle(fontSize: 12, fontWeight: FontWeight.w500, color: foreground),
-        labelLarge: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: foreground, letterSpacing: 1),
+      textTheme: GoogleFonts.ibmPlexMonoTextTheme(
+        TextTheme(
+          displayLarge: TextStyle(fontSize: 32, fontWeight: FontWeight.w700, color: foreground),
+          displayMedium: TextStyle(fontSize: 28, fontWeight: FontWeight.w600, color: foreground),
+          displaySmall: TextStyle(fontSize: 24, fontWeight: FontWeight.w600, color: foreground),
+          headlineMedium: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: foreground),
+          titleLarge: TextStyle(fontSize: 18, fontWeight: FontWeight.w500, color: foreground),
+          bodyLarge: TextStyle(fontSize: 16, fontWeight: FontWeight.w400, color: foreground),
+          bodyMedium: TextStyle(fontSize: 14, fontWeight: FontWeight.w400, color: foreground),
+          bodySmall: TextStyle(fontSize: 12, fontWeight: FontWeight.w500, color: foreground),
+          labelLarge: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: foreground, letterSpacing: 1),
+        ),
       ),
       appBarTheme: AppBarTheme(
         backgroundColor: background,
         foregroundColor: foreground,
         elevation: 0,
-        titleTextStyle: TextStyle(
+        titleTextStyle: GoogleFonts.ibmPlexMono(
           fontSize: 20,
           fontWeight: FontWeight.w600,
           color: foreground,
-          fontFamily: 'monospace',
         ),
         iconTheme: IconThemeData(color: foreground),
       ),
@@ -74,6 +75,10 @@ class WireframeTheme {
             side: BorderSide(color: foreground, width: 2),
           ),
           padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
+          textStyle: GoogleFonts.ibmPlexMono(
+            fontSize: 16,
+            fontWeight: FontWeight.w500,
+          ),
         ),
       ),
       outlinedButtonTheme: OutlinedButtonThemeData(
@@ -82,6 +87,10 @@ class WireframeTheme {
           side: BorderSide(color: foreground, width: 2),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(0)),
           padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
+          textStyle: GoogleFonts.ibmPlexMono(
+            fontSize: 16,
+            fontWeight: FontWeight.w500,
+          ),
         ),
       ),
       inputDecorationTheme: InputDecorationTheme(
@@ -108,13 +117,13 @@ class WireframeTheme {
           borderRadius: BorderRadius.circular(0),
           borderSide: BorderSide(color: errorRedDark, width: 3),
         ),
-        errorStyle: const TextStyle(
+        errorStyle: GoogleFonts.ibmPlexMono(
           fontSize: 12,
           fontWeight: FontWeight.w500,
           color: errorRed,
         ),
-        labelStyle: const TextStyle(color: grey),
-        hintStyle: const TextStyle(color: grey),
+        labelStyle: GoogleFonts.ibmPlexMono(color: grey),
+        hintStyle: GoogleFonts.ibmPlexMono(color: grey),
       ),
       dividerTheme: DividerThemeData(color: foreground, thickness: 2, space: 2),
       iconTheme: IconThemeData(color: foreground, size: 24),
